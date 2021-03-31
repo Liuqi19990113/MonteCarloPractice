@@ -11,5 +11,5 @@ for i in range(0, random_number):
     X_list.append(X)
 plt.hist(X_list, binbin, color='g',density=True)
 plt.xlabel('X')
-plt.ylabel('probility/bin_step')
+plt.ylabel('p')
 plt.show()
